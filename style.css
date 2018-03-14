@@ -1,0 +1,51 @@
+/*  Style for countdown
+    100% editable
+*/
+body{
+    text-align: center;
+    background-image: url("bg.jpg");
+    background-size: cover;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+
+h1{
+  color: white;
+  opacity: 0.5;
+  font-weight: 100;
+  font-size: 40px;
+  margin: 40px 0px 20px;
+}
+
+#clockdiv{
+    font-family: sans-serif;
+    display: inline-block;
+    font-weight: 100;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+
+#clockdiv > div{
+    padding: 10px;
+    border-radius: 500px;
+    background: white;
+    display: inline-block;
+    opacity:0.5;
+}
+
+#clockdiv div > span{
+    padding: 7px;
+    border-radius: 500px;
+    background: black;
+    display: inline-block;
+    opacity:1;
+}
+
+.date{
+    padding-top: 5px;
+    font-size: 14px;
+    color: black;
+    font-stretch: extra-expanded;
+
+}
